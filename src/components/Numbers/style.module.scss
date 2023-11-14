@@ -1,0 +1,23 @@
+.numbers {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+.number {
+  list-style: none;
+  font-size: 3rem;
+  font-family: var(--poppins);
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1;
+
+  & span {
+    color: var(--purple);
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 6rem;
+  }
+}

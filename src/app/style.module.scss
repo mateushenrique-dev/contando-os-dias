@@ -1,0 +1,13 @@
+.calculator {
+  border-radius: 12px 12px 42px 12px;
+  background: var(--white);
+  margin: 1rem;
+  padding: 3rem 1rem;
+
+  @media (min-width: 1280px) {
+    width: 894px;
+    height: 718px;
+    margin: 0;
+    padding: 4rem;
+  }
+}

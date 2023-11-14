@@ -1,0 +1,21 @@
+{
+  "name": "date-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recoil": "^0.7.7",
+    "sass": "^1.69.5"
+  },
+  "scripts": {
+    "dev": "next dev"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "typescript": "5.2.2"
+  }
+}
