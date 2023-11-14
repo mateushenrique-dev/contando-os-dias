@@ -7,9 +7,9 @@ export default function Numbers() {
 
   return (
     <ul className={styles.numbers}>
-      <li className={styles.number}><span>{dateNumbers.years}</span> years</li>
-      <li className={styles.number}><span>{dateNumbers.months}</span> months</li>
-      <li className={styles.number}><span>{dateNumbers.days}</span> days</li>
+      <li className={styles.number}><span>{dateNumbers.years}</span> anos</li>
+      <li className={styles.number}><span>{dateNumbers.months}</span> meses</li>
+      <li className={styles.number}><span>{dateNumbers.days}</span> dias</li>
     </ul>
   )
 }

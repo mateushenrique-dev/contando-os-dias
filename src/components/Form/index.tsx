@@ -39,7 +39,7 @@ export default function Form() {
     <form className={styles.form} onSubmit={calculateDate}>
       <div className={styles.fields}>
         <label className={styles.label} htmlFor="">
-          Day
+          Dia
           <input
             className={styles.input}
             type="number"
@@ -50,7 +50,7 @@ export default function Form() {
           />
         </label>
         <label className={styles.label} htmlFor="">
-          Month
+          Mês
           <input
             className={styles.input}
             type="text"
@@ -61,7 +61,7 @@ export default function Form() {
           />
         </label>
         <label className={styles.label} htmlFor="">
-          Year
+          Ano
           <input
             className={styles.input}
             type="text"
