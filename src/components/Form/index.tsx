@@ -53,7 +53,7 @@ export default function Form() {
           Mês
           <input
             className={styles.input}
-            type="text"
+            type="number"
             min="1"
             max="12"
             required
@@ -64,9 +64,9 @@ export default function Form() {
           Ano
           <input
             className={styles.input}
-            type="text"
+            type="number"
             min="1"
-            max="9999"
+            max="99999"
             required
             onChange={(e) => setYear(+e.target.value)}
           />
